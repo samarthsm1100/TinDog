@@ -1,0 +1,185 @@
+body{
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+#title{
+  font-family: "Ubuntu";
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Montserrat',sans-serif;
+  font-weight: 500;
+}
+
+p{
+  color: #8f8f8f;
+}
+.container-fluid{
+  padding : 3% 15% 7%;
+}
+.left-lined{
+  text-align: left;
+}
+
+ /* heading */
+
+ .big-heading{
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 900;
+   font-size: 3rem;
+   line-height: 1.5;
+ }
+
+ .section-heading{
+   font-weight: 600;
+   font-size: 2.5rem;
+   line-height: 2.5rem;
+ }
+/* Navigation Bar */
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+}
+
+/* Download Buttons */
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+
+.title-image{
+  margin-left: 50px;
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+.title-image-container{
+  position: relative;
+}
+
+/* Feature Section */
+
+#features{
+  padding: 7% 12%;
+  background-color: #fff;
+  position: relative;
+}
+
+.feature-title{
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+
+.feature-box{
+  padding: 5%;
+}
+
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color:#ff4c68;
+}
+
+/* Testimonial */
+
+#testimonials{
+  padding: 7% 20%;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-text{
+  font-size: 2.5rem;
+  line-height: 3rem;
+}
+
+.testimonial-image{
+  width: 20%;
+  border-radius: 100%;
+  margin: 5%;
+}
+
+#press{
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px;
+}
+
+/* Pricing Section */
+
+#pricing{
+  padding: 100px;
+}
+
+.price-text{
+  font-weight: bold;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+}
+
+.p-col{
+  padding: 3% 2%;
+}
+
+/* CTA Section */
+
+#cta{
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 7% 15%;
+}
+
+/* Footer Section */
+
+#footer{
+  padding: 7% 15%;
+}
+
+.social-icons{
+  padding: 20px 10px;
+}
+
+/* Media Query */
+
+@media (max-width: 1028px) {
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title{
+    text-align: center;
+  }
+
+  .left-lined{
+    text-align: center;
+  }
+}
